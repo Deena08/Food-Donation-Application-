@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_myfeed"
+        android:title="Home"/>
+    <item
+        android:id="@+id/sentEmail"
+        android:icon="@drawable/ic_check"
+        android:title="Recipient Emails"/>
+    <item
+        android:id="@+id/nav_Donations"
+        android:icon="@drawable/compatible"
+        android:title="Donations"/>
+
+    <item
+        android:id="@+id/nav_all.categories"
+        android:icon="@drawable/ic_option"
+        android:title="ALL categories"/>
+    </group>
+
+<item
+    android:title="Profile">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Profile"/>
+            <item
+                android:id="@+id/notification"
+                android:icon="@drawable/ic_notifications"
+                android:title="notification"/>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Log Out"/>
+        </group>
+    </menu>
+</item>
+    <item
+        android:title="Action">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/pickup"
+                    android:icon="@drawable/ic_bike"
+                    android:title="Request Pick Up"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/About"
+                    android:icon="@drawable/ic_about"
+                    android:title="About Just Donate"/>
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_share"
+                    android:title="Share"/>
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/ic_whatsapp"
+                    android:title="rate us"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

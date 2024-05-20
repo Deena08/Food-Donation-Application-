@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">JUST DONATE</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="DonateType">
+        <item>Select Your Type</item>
+        <item>NGO</item>
+        <item>Hotel</item>
+        <item>Cafe</item>
+        <item>Private canten</item>
+        <item>College Hostel</item>
+        <item>Private Hostel</item>
+        <item>Family Function</item>
+    </string-array>
+    <!-- group_5 strings -->
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="mar_04___mar_13_string">35 min - 60 min</string>
+    <string name="estimated_delivery__string">Estimated Pick Up ID: #121122</string>
+    <string name="departed_country_of_string">In Process</string>
+    <string name="delivering_string">Pick up</string>
+    <string name="departed_country_of_ek1_string">By agent</string>
+    <string name="shipment_accepted_string">Donation accepted</string>
+    <string name="departed_country_of_ek2_string">By Just Donate</string>
+    <string name="pick_up_string">Completed</string>
+</resources>
